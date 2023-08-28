@@ -19,6 +19,34 @@ This is a React movie app that displays upcoming movies, allows searching, and p
 
 5. Open your web browser and go to `http://localhost:3000` to view the app.
 
+## Src Folder Structure
+
+```
+/src
+    /components
+        /Header
+            index.js
+            styles.css
+            /Partials/SearchBox
+                index.js
+                styles.css
+        /MovieCard
+            index.js
+            styles.css
+        /MovieDetail
+            index.js
+            styles.css
+    /pages
+        ListPage.js
+        DetailsPage.js
+    /styles
+        styles.css
+    /context
+        DataContext.js
+    App.js
+    index.js
+```
+
 ## Elements Done Well
 
 1. **Search Functionality**: I implemented a search bar component that allows users to search for movies and see the results on the same page. The search bar component is developed into the header component which is designed to have the search bar for List Page but not for Movie Details Page.

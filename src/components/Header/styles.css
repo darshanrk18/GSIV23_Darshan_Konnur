@@ -6,7 +6,6 @@
   filter: drop-shadow(0px 2px 2px #9b9b9b);
   background-color: #4a4a4a;
   padding-inline: 1rem;
-  min-width: 512px;
 }
 
 .navigation-box {
@@ -15,23 +14,41 @@
 }
 
 .navigation-box h2{
-  color: white
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 1rem;
 }
 
 .home-icon {
-  width: 20px;
-  height: 20px;
+  width: 1.1rem;
+  height: 1.1rem;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   border-radius: 4px;
-  padding: 5px;
+  padding: 0.35rem;
   cursor: pointer;
   transition: background-color 0.4s ease;
 }
 
 .home-icon:hover {
     background-color: lightgray;
+}
+
+@media (max-width: 512px) {
+  .header {
+    padding-inline: 2%;
+  }
+
+  .navigation-box h2 {
+    font-size: 1.4rem;
+  }
+
+  .home-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    padding: 0.2rem;
+  }
 }
