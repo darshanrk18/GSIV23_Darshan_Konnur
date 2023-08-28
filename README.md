@@ -7,7 +7,7 @@ This is a React movie app that displays upcoming movies, allows searching, and p
 1. Clone or download this repository.
 
 2. Navigate to the project directory:
-cd movie-app
+'cd movie-app'
 
 3. Install the required dependencies:
 npm install
