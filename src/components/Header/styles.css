@@ -1,0 +1,40 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.75rem;
+  filter: drop-shadow(0px 2px 2px #9b9b9b);
+  background-color: #4a4a4a;
+  padding-inline: 1rem;
+}
+
+/* Navigation Box */
+.navigation-box {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-box h2{
+  color: white
+}
+
+/* Home Icon */
+.home-icon {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  /* border-color: #4a4a4a; */
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.home-icon:hover {
+    background-color: lightgray;
+}
