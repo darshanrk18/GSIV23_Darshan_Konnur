@@ -10,7 +10,6 @@ const If = ({ test, children }) => {
 }
 
 const SearchBar = () => {
-  // const [searchQuery, setSearchQuery] = useState('');
   const { setSearchResults, searchQuery, setSearchQuery } = useDataContext();
 
   const handleSearch = async (query) => {
@@ -45,7 +44,7 @@ const SearchBar = () => {
   const handleInputChange = (event) => {
     const inputValue = event.target.value;
     setSearchQuery(inputValue);
-    handleSearch(inputValue); // Call the debounced function
+    handleSearch(inputValue);
   };
 
   const handleClearClick = () => {
