@@ -2,9 +2,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));;
   gap: 1rem;
+  padding: 1% 2%;
   justify-content: center;
-  padding: 1rem;
-  min-width: 512px;
   justify-content: center;
   align-content: center;
 }
@@ -36,3 +35,10 @@
   100% { transform: rotate(360deg); }
 }
 
+@media (max-width: 512px) {
+  .movie-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 0.5rem;
+    padding: 2% 10%;
+  }
+}
