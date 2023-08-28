@@ -63,7 +63,7 @@ const ListPage = () => {
           dataLength={displayedMovies.length}
           next={fetchMovies}
           hasMore={hasMore}
-          loader={<h4><div className="loader"></div></h4>}
+          loader={<h4 className='inline-loader'><div className="loader"></div></h4>}
         >
           <div className='movie-cards-container'>
             {displayedMovies.map((movie) => (

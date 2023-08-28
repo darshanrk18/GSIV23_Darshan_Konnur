@@ -1,8 +1,7 @@
 .search-bar {
   display: flex;
   align-items: center;
-  width: auto;
-  min-width: 100%;
+  width: 25rem;
   height: 1.8rem;
   border-radius: 8px;
   background-color: #dfdfdf;
@@ -43,7 +42,7 @@
 
 @media (max-width: 512px) {
   .search-bar {
-    min-width: 100%;
+    width: 100%;
     padding: 2% 4%;
   }
 
