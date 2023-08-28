@@ -1,9 +1,12 @@
 .movie-cards-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));;
   gap: 1rem;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem;
+  min-width: 512px;
+  justify-content: center;
+  align-content: center;
 }
 
 .loader-container {
@@ -15,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1000; /* Ensure it's above other elements */
+  z-index: 1000;
 }
 
 .loader {
@@ -32,3 +35,4 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
